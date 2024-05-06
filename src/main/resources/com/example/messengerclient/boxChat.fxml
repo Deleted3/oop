@@ -40,9 +40,9 @@
               </children></Pane>
           </children>
         </VBox>
-        <VBox prefHeight="200.0" prefWidth="250.0" styleClass="gray-background" stylesheets="@../../../values/style.css">
+        <VBox prefHeight="200.0" prefWidth="260.0" styleClass="gray-background" stylesheets="@../../../values/style.css">
           <children>
-            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="200.0" stylesheets="@../../../values/style.css">
+            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="260.0" stylesheets="@../../../values/style.css">
               <children>
                 <ImageView fitHeight="24.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
                   <image>
@@ -61,7 +61,7 @@
                 <String fx:value="radus" />
               </styleClass>
             </HBox>
-            <ListView fx:id="list_user" prefHeight="438.0" prefWidth="250.0" styleClass="gray-background" />
+            <ListView fx:id="list_user" prefHeight="438.0" prefWidth="260.0" styleClass="gray-background" />
           </children>
         </VBox>
       </children>

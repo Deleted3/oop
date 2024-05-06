@@ -8,6 +8,8 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.Socket;
+import java.util.Arrays;
+import java.util.Base64;
 
 public class Client {
     private Socket socket;
@@ -18,17 +20,20 @@ public class Client {
             this.socket=socket;
             this.dataInputStream=new DataInputStream(socket.getInputStream());
             this.dataOutputStream=new DataOutputStream(socket.getOutputStream());
+            dataOutputStream.writeUTF("Set id");
+            dataOutputStream.writeUTF(Controller.owner.getId());
         }catch (IOException exception){
             System.out.println("Error connecting to server");
             exception.printStackTrace();
         }
     }
-    public void sendImageToServer(Image image, String format){
+    public void sendImageToServer(Image image,String format){
         try{
             BufferedImage bufferedImage= SwingFXUtils.fromFXImage(image,null);
             ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();
             ImageIO.write(bufferedImage,format, byteArrayOutputStream);
             byte[] imageData=byteArrayOutputStream.toByteArray();
+            dataOutputStream.writeUTF(Controller.receiver_id);
             dataOutputStream.writeUTF("IMAGE");
             dataOutputStream.writeInt(imageData.length);
             dataOutputStream.write(imageData,0,imageData.length);
@@ -45,6 +50,9 @@ public class Client {
             public void run() {
                 while(socket.isConnected()){
                     try{
+                        //Đọc id người gửi
+                        String senderID=dataInputStream.readUTF();
+                        //Đọc kiểu dữ liệu
                         String dataType=dataInputStream.readUTF();
                         if(dataType.equals("IMAGE")) {
                             int length = dataInputStream.readInt();
@@ -52,11 +60,15 @@ public class Client {
                             dataInputStream.readFully(imageData, 0, length);
                             ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(imageData);
                             Image image = new Image(byteArrayInputStream);
-                            Controller.addLabel1(image, vBox);
+                            if(senderID.equals(Controller.receiver_id)){
+                                Controller.addLabel1(image, vBox);
+                            }
                         }
                         else {
                             String messageFromServer=dataInputStream.readUTF();
-                            Controller.addLabel(messageFromServer,vBox);
+                            if(senderID.equals(Controller.receiver_id)){
+                                Controller.addLabel(messageFromServer,vBox);
+                            }
                         }
                     }catch (IOException e){
                         e.printStackTrace();
@@ -69,6 +81,7 @@ public class Client {
     }
     public void sendMessageToServer(String messageToServer){
         try {
+            dataOutputStream.writeUTF(Controller.receiver_id);
             dataOutputStream.writeUTF("MESSAGE");
             dataOutputStream.writeUTF(messageToServer);
         }catch (IOException e){
@@ -91,14 +104,5 @@ public class Client {
         }catch (Exception e){
             e.printStackTrace();
         }
-    }
-    public String getDataType(){
-        try{
-            return dataInputStream.readUTF();
-        }catch (IOException exception){
-            System.out.println("Error getDataType");
-            exception.printStackTrace();
-        }
-        return null;
     }
 }

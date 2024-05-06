@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="410.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.LoginController">
+   <children>
+      <Pane layoutX="342.0" prefHeight="410.0" prefWidth="300.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-2.0" prefHeight="78.0" prefWidth="300.0" text="REGISTER">
+               <font>
+                  <Font name="Bodoni MT Black" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="fullname" layoutX="46.0" layoutY="114.0" prefHeight="46.0" prefWidth="203.0" promptText="Full name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="password" layoutX="46.0" layoutY="180.0" prefHeight="46.0" prefWidth="203.0" promptText="Pass word">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="id" layoutX="46.0" layoutY="252.0" prefHeight="46.0" prefWidth="203.0" promptText="id">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="signUpButton" layoutX="46.0" layoutY="331.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="107.0" text="Sign Up">
+               <font>
+                  <Font name="Bodoni MT Black" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="signInButton" layoutX="179.0" layoutY="331.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="107.0" text="Sign In">
+               <font>
+                  <Font name="Bodoni MT Black" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
