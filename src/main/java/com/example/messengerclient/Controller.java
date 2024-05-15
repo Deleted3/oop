@@ -49,7 +49,9 @@ public class Controller implements Initializable {
     @FXML
     private ListView list_user;
     @FXML
-    public Pane pane_username;
+    private Pane pane_username;
+    @FXML
+    private Button Button_logout;
     private Client client;
     public static String receiver_id;
     public static Owner owner;
@@ -71,7 +73,7 @@ public class Controller implements Initializable {
                 sp_main.setVvalue((Double)newValue);
             }
         });
-        for(int i=0;i<6;i++){
+        for(int i=0;i<5;i++){
             HBox hbox_username=createFriendsItem("Khánh",new Image("/onepice.png"));
             hbox_username.setPadding(new Insets(10,0,10,0));
             list_user.getItems().add(hbox_username);
@@ -86,7 +88,7 @@ public class Controller implements Initializable {
                 String messageToSend=tf_message.getText();
                 if(!messageToSend.isEmpty()){
                     HBox hBox=new HBox();
-                    hBox.setAlignment(Pos.TOP_RIGHT);
+                    hBox.setAlignment(Pos.BOTTOM_RIGHT);
                     hBox.setPrefWidth(473);
                     hBox.setPadding(new Insets(5,5,5,10));
                     Text text=new Text(messageToSend);
@@ -113,7 +115,7 @@ public class Controller implements Initializable {
                 String messageToSend=tf_message.getText();
                 if(!messageToSend.isEmpty()){
                     HBox hBox=new HBox();
-                    hBox.setAlignment(Pos.TOP_RIGHT);
+                    hBox.setAlignment(Pos.BOTTOM_RIGHT);
                     hBox.setPrefWidth(473);
                     hBox.setPadding(new Insets(5,5,5,10));
                     Text text=new Text(messageToSend);
@@ -135,6 +137,20 @@ public class Controller implements Initializable {
                 }
             }
         });
+
+        // Set up Button Logout
+        Button_logout.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Logout");
+                alert.setHeaderText("You're about to logout!");
+                alert.setContentText("Are you sure you want to logout?");
+                if(alert.showAndWait().get() == ButtonType.OK){
+                    StageAndScene.showLoginScene();
+                }
+            }
+        });
         button_choose_img.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -145,7 +161,7 @@ public class Controller implements Initializable {
                 if(selectedFile!=null){
                     HBox hBox=new HBox();
                     hBox.setPrefWidth(473);
-                    hBox.setAlignment(Pos.TOP_RIGHT);
+                    hBox.setAlignment(Pos.BOTTOM_RIGHT);
                     hBox.setPadding(new Insets(5,5,5,10));
                     Image image=new Image(selectedFile.toURI().toString());
                     ImageView imageView=new ImageView(image);
@@ -203,7 +219,7 @@ public class Controller implements Initializable {
             if(message.getSender_id().equals(owner.getId())){
                 HBox hBox=new HBox();
                 hBox.setPrefWidth(473);
-                hBox.setAlignment(Pos.TOP_RIGHT);
+                hBox.setAlignment(Pos.BOTTOM_RIGHT);
                 hBox.setPadding(new Insets(5,5,5,10));
                 Text text=new Text(message.getText());
                 Font font = new Font("Arial", 16);
@@ -222,7 +238,7 @@ public class Controller implements Initializable {
             }
             else{
                 HBox hBox=new HBox();
-                hBox.setAlignment(Pos.TOP_LEFT);
+                hBox.setAlignment(Pos.BOTTOM_LEFT);
                 hBox.setPrefWidth(473);
                 hBox.setPadding(new Insets(5,5,5,10));
                 Text text=new Text(message.getText());
@@ -243,7 +259,7 @@ public class Controller implements Initializable {
     }
     public static void addLabel1(Image image,VBox vBox){
         HBox hBox=new HBox();
-        hBox.setAlignment(Pos.TOP_LEFT);
+        hBox.setAlignment(Pos.BOTTOM_LEFT);
         hBox.setPrefWidth(473);
         hBox.setPadding(new Insets(5,5,5,10));
         ImageView imageView=new ImageView(image);
@@ -264,7 +280,7 @@ public class Controller implements Initializable {
     }
     public static void addLabel(String msgFromServer,VBox vBox){
         HBox hBox=new HBox();
-        hBox.setAlignment(Pos.TOP_LEFT);
+        hBox.setAlignment(Pos.BOTTOM_LEFT);
         hBox.setPrefWidth(473);
         hBox.setPadding(new Insets(5,5,5,10));
         Text text=new Text(msgFromServer);
