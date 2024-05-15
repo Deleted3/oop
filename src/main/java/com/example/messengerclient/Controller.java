@@ -17,7 +17,9 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
@@ -46,9 +48,12 @@ public class Controller implements Initializable {
     private Button button_choose_img;
     @FXML
     private ListView list_user;
+    @FXML
+    private Pane pane_username;
     private Client client;
     public static String receiver_id;
     public static Owner owner;
+    public HBox  hbox_username;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -67,13 +72,20 @@ public class Controller implements Initializable {
                 sp_main.setVvalue((Double)newValue);
             }
         });
-        for(int i=0;i<5;i++){
-            HBox hBox=createFriendsItem("Khánh",new Image("/onepice.png"));
-            HBox hBox1=new HBox();
-            Insets hBoxInsets=new Insets(10,0,10,0);
-            HBox.setMargin(hBox,hBoxInsets);
-            hBox1.getChildren().add(hBox);
-            list_user.getItems().add(hBox1);
+        for(int i=0;i<8;i++){
+            hbox_username=createFriendsItem("Khánh",new Image("/onepice.png"));
+            hbox_username.setPadding(new Insets(10,0,10,0));
+            list_user.getItems().add(hbox_username);
+            ((HBox)list_user.getItems().get(i)).setOnMouseClicked(new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent event) {
+                    pane_username.getChildren().clear();
+                    hbox_username.setScaleX(0.75);
+                    hbox_username.setScaleY(0.75);
+                    hbox_username.setPadding(new Insets(2,0,2,0));
+                    pane_username.getChildren().add(hbox_username);
+                }
+            });
         }
         list_user.getSelectionModel().selectedItemProperty().addListener((observableValue, o, t1) -> {
             receiver_id=Main.cruDfirebase.getListUsers().get(list_user.getItems().indexOf(t1)).getId();
@@ -171,6 +183,8 @@ public class Controller implements Initializable {
             HBox friendItem = loader.load();
             FriendsItem controller = loader.getController();
             controller.setFriend(name, image);
+            Insets imageViewInsets= new Insets(0,4,0,2);
+            friendItem.setMargin(controller.getImageView(),imageViewInsets);
             return friendItem;
         } catch (IOException e) {
             e.printStackTrace();

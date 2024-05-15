@@ -15,4 +15,6 @@ public class FriendsItem {
         imageView.setImage(image);
         label.setText(name);
     }
+    public Label getLabel(){return this.label;}
+    public ImageView getImageView(){return this.imageView;}
 }

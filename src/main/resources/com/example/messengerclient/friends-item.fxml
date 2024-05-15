@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.FriendsItem">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.FriendsItem">
    <children>
       <ImageView fx:id="imageView" fitHeight="60.0" fitWidth="60.0">
               <clip>
@@ -21,6 +21,6 @@
       </Label>
    </children>
    <opaqueInsets>
-      <Insets bottom="10.0" top="10.0" />
+      <Insets />
    </opaqueInsets>
 </HBox>
