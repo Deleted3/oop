@@ -49,11 +49,10 @@ public class Controller implements Initializable {
     @FXML
     private ListView list_user;
     @FXML
-    private Pane pane_username;
+    public Pane pane_username;
     private Client client;
     public static String receiver_id;
     public static Owner owner;
-    public HBox  hbox_username;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -72,20 +71,10 @@ public class Controller implements Initializable {
                 sp_main.setVvalue((Double)newValue);
             }
         });
-        for(int i=0;i<8;i++){
-            hbox_username=createFriendsItem("Khánh",new Image("/onepice.png"));
+        for(int i=0;i<6;i++){
+            HBox hbox_username=createFriendsItem("Khánh",new Image("/onepice.png"));
             hbox_username.setPadding(new Insets(10,0,10,0));
             list_user.getItems().add(hbox_username);
-            ((HBox)list_user.getItems().get(i)).setOnMouseClicked(new EventHandler<MouseEvent>() {
-                @Override
-                public void handle(MouseEvent event) {
-                    pane_username.getChildren().clear();
-                    hbox_username.setScaleX(0.75);
-                    hbox_username.setScaleY(0.75);
-                    hbox_username.setPadding(new Insets(2,0,2,0));
-                    pane_username.getChildren().add(hbox_username);
-                }
-            });
         }
         list_user.getSelectionModel().selectedItemProperty().addListener((observableValue, o, t1) -> {
             receiver_id=Main.cruDfirebase.getListUsers().get(list_user.getItems().indexOf(t1)).getId();
@@ -185,6 +174,24 @@ public class Controller implements Initializable {
             controller.setFriend(name, image);
             Insets imageViewInsets= new Insets(0,4,0,2);
             friendItem.setMargin(controller.getImageView(),imageViewInsets);
+            friendItem.setOnMouseClicked(new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent mouseEvent) {
+                    pane_username.getChildren().clear();
+                    FXMLLoader loader_tmp = new FXMLLoader(getClass().getResource("friends-item.fxml"));
+                    try{
+                        HBox friendItem_tmp=loader_tmp.load();
+                        FriendsItem controller = loader_tmp.getController();
+                        controller.setFriend(name, image);
+                        friendItem_tmp.setScaleX(0.75);
+                        friendItem_tmp.setScaleY(0.75);
+                        friendItem_tmp.setPadding(new Insets(2,0,2,0));
+                        pane_username.getChildren().add(friendItem_tmp);
+                    }catch(IOException e){
+                        e.printStackTrace();
+                    }
+                }
+            });
             return friendItem;
         } catch (IOException e) {
             e.printStackTrace();

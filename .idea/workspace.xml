@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/FriendsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/FriendsItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/values/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/values/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,10 @@
       <workItem from="1715653982778" duration="4464000" />
       <workItem from="1715680020576" duration="144000" />
       <workItem from="1715709868171" duration="495000" />
-      <workItem from="1715737220201" duration="6541000" />
+      <workItem from="1715737220201" duration="6901000" />
+      <workItem from="1715758184726" duration="260000" />
+      <workItem from="1715761865443" duration="1433000" />
+      <workItem from="1715763647666" duration="4219000" />
     </task>
     <servers />
   </component>

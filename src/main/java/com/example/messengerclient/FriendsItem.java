@@ -17,4 +17,5 @@ public class FriendsItem {
     }
     public Label getLabel(){return this.label;}
     public ImageView getImageView(){return this.imageView;}
+
 }
