@@ -89,7 +89,7 @@ public class Controller implements Initializable {
                 if(!messageToSend.isEmpty()){
                     HBox hBox=new HBox();
                     hBox.setAlignment(Pos.BOTTOM_RIGHT);
-                    hBox.setPrefWidth(473);
+                    hBox.setPrefWidth(vbox_messages.getPrefWidth());
                     hBox.setPadding(new Insets(5,5,5,10));
                     Text text=new Text(messageToSend);
                     Font font = new Font("Arial", 16);
@@ -97,11 +97,11 @@ public class Controller implements Initializable {
                     TextFlow textFlow=new TextFlow(text);
                     textFlow.setStyle("-fx-color: rgb(239,242,255);"+"-fx-background-color: rgb(15,125,242);"+"-fx-background-radius: 20px");
                     textFlow.setPadding(new Insets(5,10,5,10));
-                    textFlow.setMaxWidth(200);
+                    textFlow.setMaxWidth(250);
                     text.setFill(Color.color(0.934,0.945,0.996));
                     Circle circle =new Circle(10);
                     circle.setFill(new ImagePattern(new Image("/avtar.png")));
-                    Insets circleInsets=new Insets(0,0,0,3);
+                    Insets circleInsets=new Insets(0,5,0,3);
                     hBox.setMargin(circle,circleInsets);
                     hBox.getChildren().addAll(textFlow,circle);
                     vbox_messages.getChildren().add(hBox);
@@ -116,7 +116,7 @@ public class Controller implements Initializable {
                 if(!messageToSend.isEmpty()){
                     HBox hBox=new HBox();
                     hBox.setAlignment(Pos.BOTTOM_RIGHT);
-                    hBox.setPrefWidth(473);
+                    hBox.setPrefWidth(vbox_messages.getPrefWidth());
                     hBox.setPadding(new Insets(5,5,5,10));
                     Text text=new Text(messageToSend);
                     Font font = new Font("Arial", 16);
@@ -124,11 +124,11 @@ public class Controller implements Initializable {
                     TextFlow textFlow=new TextFlow(text);
                     textFlow.setStyle("-fx-color: rgb(239,242,255);"+"-fx-background-color: rgb(15,125,242);"+"-fx-background-radius: 20px");
                     textFlow.setPadding(new Insets(5,10,5,10));
-                    textFlow.setMaxWidth(200);
+                    textFlow.setMaxWidth(250);
                     text.setFill(Color.color(0.934,0.945,0.996));
                     Circle circle =new Circle(10);
                     circle.setFill(new ImagePattern(new Image("/avtar.png")));
-                    Insets circleInsets=new Insets(0,0,0,3);
+                    Insets circleInsets=new Insets(0,5,0,3);
                     hBox.setMargin(circle,circleInsets);
                     hBox.getChildren().addAll(textFlow,circle);
                     vbox_messages.getChildren().add(hBox);
@@ -160,7 +160,7 @@ public class Controller implements Initializable {
                 File selectedFile = fileChooser.showOpenDialog(stage);
                 if(selectedFile!=null){
                     HBox hBox=new HBox();
-                    hBox.setPrefWidth(473);
+                    hBox.setPrefWidth(vbox_messages.getPrefWidth());
                     hBox.setAlignment(Pos.BOTTOM_RIGHT);
                     hBox.setPadding(new Insets(5,5,5,10));
                     Image image=new Image(selectedFile.toURI().toString());
@@ -170,7 +170,7 @@ public class Controller implements Initializable {
                     imageView.setPreserveRatio(true);
                     Circle circle =new Circle(10);
                     circle.setFill(new ImagePattern(new Image("/avtar.png")));
-                    Insets circleInsets=new Insets(0,0,0,3);
+                    Insets circleInsets=new Insets(0,5,0,3);
                     hBox.setMargin(circle,circleInsets);
                     hBox.getChildren().addAll(imageView,circle);
                     vbox_messages.getChildren().add(hBox);
@@ -188,7 +188,7 @@ public class Controller implements Initializable {
             HBox friendItem = loader.load();
             FriendsItem controller = loader.getController();
             controller.setFriend(name, image);
-            Insets imageViewInsets= new Insets(0,4,0,2);
+            Insets imageViewInsets= new Insets(0,10,0,2);
             friendItem.setMargin(controller.getImageView(),imageViewInsets);
             friendItem.setOnMouseClicked(new EventHandler<MouseEvent>() {
                 @Override
@@ -201,6 +201,7 @@ public class Controller implements Initializable {
                         controller.setFriend(name, image);
                         friendItem_tmp.setScaleX(0.75);
                         friendItem_tmp.setScaleY(0.75);
+                        friendItem_tmp.setMargin(controller.getImageView(),new Insets(0,8,0,0));
                         friendItem_tmp.setPadding(new Insets(2,0,2,0));
                         pane_username.getChildren().add(friendItem_tmp);
                     }catch(IOException e){
@@ -218,7 +219,7 @@ public class Controller implements Initializable {
         for(Message message:listMessages){
             if(message.getSender_id().equals(owner.getId())){
                 HBox hBox=new HBox();
-                hBox.setPrefWidth(473);
+                hBox.setPrefWidth(vbox_messages.getPrefWidth());
                 hBox.setAlignment(Pos.BOTTOM_RIGHT);
                 hBox.setPadding(new Insets(5,5,5,10));
                 Text text=new Text(message.getText());
@@ -227,11 +228,11 @@ public class Controller implements Initializable {
                 TextFlow textFlow=new TextFlow(text);
                 textFlow.setStyle("-fx-color: rgb(239,242,255);"+"-fx-background-color: rgb(15,125,242);"+"-fx-background-radius: 20px");
                 textFlow.setPadding(new Insets(5,10,5,10));
-                textFlow.setMaxWidth(200);
+                textFlow.setMaxWidth(250);
                 text.setFill(Color.color(0.934,0.945,0.996));
                 Circle circle =new Circle(10);
                 circle.setFill(new ImagePattern(new Image("/avtar.png")));
-                Insets circleInsets=new Insets(0,0,0,3);
+                Insets circleInsets=new Insets(0,5,0,3);
                 hBox.setMargin(circle,circleInsets);
                 hBox.getChildren().addAll(textFlow,circle);
                 vbox_messages.getChildren().add(hBox);
@@ -239,7 +240,7 @@ public class Controller implements Initializable {
             else{
                 HBox hBox=new HBox();
                 hBox.setAlignment(Pos.BOTTOM_LEFT);
-                hBox.setPrefWidth(473);
+                hBox.setPrefWidth(vbox_messages.getPrefWidth());
                 hBox.setPadding(new Insets(5,5,5,10));
                 Text text=new Text(message.getText());
                 TextFlow textFlow=new TextFlow(text);
@@ -247,10 +248,10 @@ public class Controller implements Initializable {
                 text.setFont(font);
                 textFlow.setStyle("-fx-background-color: rgb(233,233,235);"+"-fx-background-radius: 20px");
                 textFlow.setPadding(new Insets(5,10,5,10));
-                textFlow.setMaxWidth(200);
+                textFlow.setMaxWidth(250);
                 Circle circle =new Circle(10);
                 circle.setFill(new ImagePattern(new Image("/avtar.png")));
-                Insets circleInsets=new Insets(0,3,0,0);
+                Insets circleInsets=new Insets(0,3,0,5);
                 hBox.setMargin(circle,circleInsets);
                 hBox.getChildren().addAll(circle,textFlow);
                 vbox_messages.getChildren().add(hBox);
@@ -268,7 +269,7 @@ public class Controller implements Initializable {
         imageView.setPreserveRatio(true);
         Circle circle =new Circle(10);
         circle.setFill(new ImagePattern(new Image("/avtar.png")));
-        Insets circleInsets=new Insets(0,3,0,0);
+        Insets circleInsets=new Insets(0,3,0,5);
         hBox.setMargin(circle,circleInsets);
         hBox.getChildren().addAll(circle,imageView);
         Platform.runLater(new Runnable() {
@@ -289,10 +290,10 @@ public class Controller implements Initializable {
         TextFlow textFlow=new TextFlow(text);
         textFlow.setStyle("-fx-background-color: rgb(233,233,235);"+"-fx-background-radius: 20px");
         textFlow.setPadding(new Insets(5,10,5,10));
-        textFlow.setMaxWidth(200);
+        textFlow.setMaxWidth(250);
         Circle circle =new Circle(10);
         circle.setFill(new ImagePattern(new Image("/avtar.png")));
-        Insets circleInsets=new Insets(0,3,0,0);
+        Insets circleInsets=new Insets(0,3,0,5);
         hBox.setMargin(circle,circleInsets);
         hBox.getChildren().addAll(circle,textFlow);
 

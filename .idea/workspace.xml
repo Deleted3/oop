@@ -7,7 +7,11 @@
     <list default="true" id="a471adaa-8633-418e-8383-8ffaf4b3ba3a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-attach-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/values/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/values/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +173,12 @@
       <workItem from="1715775609195" duration="1650000" />
       <workItem from="1715779859821" duration="550000" />
       <workItem from="1715780558254" duration="1678000" />
+      <workItem from="1715837890620" duration="79000" />
+      <workItem from="1715839251123" duration="37000" />
+      <workItem from="1715840841409" duration="538000" />
+      <workItem from="1715880473143" duration="1193000" />
+      <workItem from="1715932591429" duration="899000" />
+      <workItem from="1715948436488" duration="13424000" />
     </task>
     <servers />
   </component>

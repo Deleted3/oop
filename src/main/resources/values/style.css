@@ -25,9 +25,11 @@
 .special-gray{
     -fx-background-color: #e7e7e7;
 }
-
-.outcoming-bubble{
-    -fx-background-color: #50C984;
-    -fx-background-radius: 20px;
+.list-cell-background{
+    -fx-control-inner-background: #636566;
+}
+.list-view .scroll-bar:vertical {
+    -fx-opacity: 0;
+    -fx-background-color: transparent;
 }
 

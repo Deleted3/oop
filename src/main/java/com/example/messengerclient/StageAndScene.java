@@ -7,6 +7,7 @@ import javafx.stage.Stage;
 public class StageAndScene {
     public static Stage stage;
     private static void showStage(Scene scene) {
+        stage.resizableProperty().setValue(false);
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();
