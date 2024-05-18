@@ -10,9 +10,9 @@
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="transparent-background" stylesheets="@../../../values/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.FriendsItem">
    <children>
       <ImageView fx:id="imageView" fitHeight="60.0" fitWidth="60.0">
-              <clip>
-                 <Circle centerX="30" centerY="30" radius="30" />
-              </clip>
+         <clip>
+            <Circle centerX="30" centerY="30" radius="30" />
+         </clip>
       </ImageView>
       <Label fx:id="label" prefHeight="60.0" text="Label">
          <font>

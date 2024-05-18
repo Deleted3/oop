@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.String?>
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.ScrollPane?>
@@ -21,18 +20,18 @@
   <left>
     <HBox prefHeight="500.0" prefWidth="308.0" BorderPane.alignment="CENTER">
       <children>
-        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="57.0" styleClass="dark-gray-background" stylesheets="@../../../values/style.css">
+        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="57.0" styleClass="blue-facebook2-background" stylesheets="@../../../values/style.css">
           <children>
             <Pane prefHeight="158.0" prefWidth="64.0" VBox.vgrow="ALWAYS" />
             <Pane prefHeight="185.0" prefWidth="64.0" VBox.vgrow="ALWAYS">
               <children>
                 <StackPane layoutX="-1.0" layoutY="168.0" prefHeight="60.0" prefWidth="60.0" styleClass="gray-background">
                   <children>
-                    <Button fx:id="Button_logout" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="dark-gray-background">
+                    <Button fx:id="Button_logout" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="blue-facebook2-background" textFill="#3399f0">
                       <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="46.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                           <image>
-                            <Image url="@icons8-exit-32.png" />
+                            <Image url="@icons8-log-out-96%20(1).png" />
                           </image>
                         </ImageView>
                       </graphic>
@@ -42,31 +41,28 @@
               </children></Pane>
           </children>
         </VBox>
-        <VBox prefHeight="200.0" prefWidth="260.0" styleClass="gray-background" stylesheets="@../../../values/style.css">
+        <VBox prefHeight="489.0" prefWidth="254.0" styleClass="white-background" stylesheets="@../../../values/style.css">
           <children>
-            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="215.0" stylesheets="@../../../values/style.css">
-              <VBox.margin>
-                <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
-              </VBox.margin>
-              <styleClass>
-                <String fx:value="dark-gray-background" />
-                <String fx:value="radius" />
-              </styleClass>
+                  <Pane prefHeight="128.0" prefWidth="253.0" styleClass="white-background">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Online Users" wrappingWidth="158.1367141753435">
-                           <font>
-                              <Font name="Arial Bold" size="25.0" />
-                           </font>
-                        </Text>
+                  <HBox alignment="TOP_CENTER" layoutX="25.0" layoutY="24.0" prefHeight="31.0" prefWidth="202.0" stylesheets="@../../../values/style.css">
+                    <styleClass>
+                      <String fx:value="blue-facebook2-background" />
+                      <String fx:value="radius" />
+                    </styleClass>
+                           <children>
+                              <Text fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Online Users" wrappingWidth="157.6367141753435">
+                                 <font>
+                                    <Font name="Arial Bold" size="25.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                  </HBox>
+                        <Line endX="644.5" endY="-0.5" layoutX="100.0" layoutY="80.0" startX="152.5" startY="-0.5" stroke="#bebbbb" strokeWidth="2.5" />
+                        <Line endX="-99.5" endY="74.5" layoutX="352.0" layoutY="5.0" startX="-99.5" startY="-4.5" stroke="#bebbbb" strokeWidth="2.5" />
                      </children>
-            </HBox>
-                  <Line endX="152.69290161132812" endY="-1.0940322875976562" startX="-100.0" strokeWidth="0.5" />
-            <ListView fx:id="list_user" prefHeight="438.0" prefWidth="260.0" stylesheets="@../../../values/style.css">
-                     <styleClass>
-                        <String fx:value="list-cell-background" />
-                        <String fx:value="gray-background" />
-                        <String fx:value="list-view" />
-                     </styleClass></ListView>
+                  </Pane>
+            <ListView fx:id="list_user" prefHeight="469.0" prefWidth="245.0" stylesheets="@../../../values/style.css" />
           </children>
         </VBox>
       </children>
@@ -77,24 +73,24 @@
       <children>
         <HBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="492.0">
           <children>
-            <Pane fx:id="pane_username" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="492.0" stylesheets="@../../../values/style.css" HBox.hgrow="ALWAYS" />
+            <Pane fx:id="pane_username" nodeOrientation="LEFT_TO_RIGHT" prefHeight="42.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css" HBox.hgrow="ALWAYS" />
           </children>
         </HBox>
-        <ScrollPane fx:id="sp_main" hbarPolicy="NEVER" prefHeight="401.0" prefWidth="492.0" styleClass="transparent-background" stylesheets="@../../../values/style.css" vbarPolicy="NEVER">
+        <ScrollPane fx:id="sp_main" hbarPolicy="NEVER" prefHeight="373.0" prefWidth="514.0" styleClass="transparent-background" stylesheets="@../../../values/style.css" vbarPolicy="NEVER">
           <content>
-            <VBox fx:id="vbox_messages" prefHeight="389.0" prefWidth="490.0" styleClass="light-gray-background" />
+            <VBox fx:id="vbox_messages" prefHeight="374.0" prefWidth="490.0" styleClass="white-background" />
           </content>
         </ScrollPane>
-        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="492.0" styleClass="special-gray" stylesheets="@../../../values/style.css">
+        <HBox alignment="CENTER" prefHeight="56.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css">
           <children>
             <StackPane prefHeight="52.0" prefWidth="66.0">
               <children>
                 <Button fx:id="button_choose_img" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="transparent-background" stylesheets="@../../../values/style.css">
                   <graphic>
-                    <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
-                      <image>
-                        <Image url="@icons8-image-64.png" />
-                      </image>
+                    <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@icons8-picture-96%20(2).png" />
+                                 </image>
                     </ImageView>
                   </graphic>
                 </Button>
@@ -106,15 +102,15 @@
               </font>
                      <styleClass>
                         <String fx:value="radius" />
-                        <String fx:value="light-gray-background" />
+                        <String fx:value="gray-light-background" />
                      </styleClass></TextField>
             <StackPane prefHeight="52.0" prefWidth="50.0">
               <children>
                 <Button fx:id="button_send" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="transparent-background" stylesheets="@../../../values/style.css">
                   <graphic>
-                    <ImageView fitHeight="34.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                    <ImageView fitHeight="28.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                       <image>
-                        <Image url="@icons8-send-48.png" />
+                        <Image url="@icons8-send-96%20(1).png" />
                       </image>
                     </ImageView>
                   </graphic>

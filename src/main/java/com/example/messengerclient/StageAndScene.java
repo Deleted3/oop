@@ -10,6 +10,8 @@ public class StageAndScene {
         stage.resizableProperty().setValue(false);
         stage.setScene(scene);
         stage.centerOnScreen();
+        stage.setTitle("Messenger Client");
+
         stage.show();
     }
     private static Scene loadScene(String path){

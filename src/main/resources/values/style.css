@@ -5,7 +5,15 @@
 .gray-background{
     -fx-background-color: #636566;
 }
-
+.light-gray-background{
+    -fx-background-color: #A0A0A0;
+}
+.white-background{
+    -fx-background-color: #FFFFFF;
+}
+.blue-background{
+    -fx-background-color: #2c69cf;
+}
 .transparent-background{
     -fx-background-color: rgba(0,0,0,0);
 }
@@ -17,7 +25,18 @@
 .light-gray-background{
     -fx-background-color: #DADADA ;
 }
-
+.light-blue-background{
+    -fx-background-color: #35A1EB;
+}
+.blue-facebook-background{
+    -fx-background-color: #0A71FF;
+}
+.blue-facebook2-background{
+    -fx-background-color: #4596E5;
+}
+.gray-light-background{
+    -fx-background-color: #EDF1F4;
+}
 .incoming-bubble{
     -fx-background-color: #FFFFFF;
     -fx-background-radius: 20px;
