@@ -2,6 +2,7 @@ package com.example.messengerclient;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class StageAndScene {
@@ -11,7 +12,8 @@ public class StageAndScene {
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.setTitle("Messenger Client");
-
+        Image icon= new Image("icons8-facebook-messenger-50.png");
+        stage.getIcons().add(icon);
         stage.show();
     }
     private static Scene loadScene(String path){

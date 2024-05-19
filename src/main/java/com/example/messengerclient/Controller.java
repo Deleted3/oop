@@ -49,7 +49,7 @@ public class Controller implements Initializable {
     @FXML
     private ListView list_user;
     @FXML
-    private Pane pane_username;
+    private HBox hbox_username;
     @FXML
     private Button Button_logout;
     private Client client;
@@ -193,7 +193,7 @@ public class Controller implements Initializable {
             friendItem.setOnMouseClicked(new EventHandler<MouseEvent>() {
                 @Override
                 public void handle(MouseEvent mouseEvent) {
-                    pane_username.getChildren().clear();
+                    hbox_username.getChildren().clear();
                     FXMLLoader loader_tmp = new FXMLLoader(getClass().getResource("friends-item.fxml"));
                     try{
                         HBox friendItem_tmp=loader_tmp.load();
@@ -203,7 +203,7 @@ public class Controller implements Initializable {
                         friendItem_tmp.setScaleY(0.75);
                         friendItem_tmp.setMargin(controller.getImageView(),new Insets(0,8,0,0));
                         friendItem_tmp.setPadding(new Insets(2,0,2,0));
-                        pane_username.getChildren().add(friendItem_tmp);
+                        hbox_username.getChildren().add(friendItem_tmp);
                     }catch(IOException e){
                         e.printStackTrace();
                     }

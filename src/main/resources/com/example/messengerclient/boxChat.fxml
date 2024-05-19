@@ -31,7 +31,7 @@
                       <graphic>
                         <ImageView fitHeight="46.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                           <image>
-                            <Image url="@icons8-log-out-96%20(1).png" />
+                            <Image url="@icons8-log-out-96 (1).png" />
                           </image>
                         </ImageView>
                       </graphic>
@@ -43,7 +43,7 @@
         </VBox>
         <VBox prefHeight="489.0" prefWidth="254.0" styleClass="white-background" stylesheets="@../../../values/style.css">
           <children>
-                  <Pane prefHeight="128.0" prefWidth="253.0" styleClass="white-background">
+                  <Pane prefHeight="128.0" prefWidth="253.0" styleClass="transparent-background" stylesheets="@../../../values/style.css">
                      <children>
                   <HBox alignment="TOP_CENTER" layoutX="25.0" layoutY="24.0" prefHeight="31.0" prefWidth="202.0" stylesheets="@../../../values/style.css">
                     <styleClass>
@@ -58,27 +58,26 @@
                               </Text>
                            </children>
                   </HBox>
-                        <Line endX="644.5" endY="-0.5" layoutX="100.0" layoutY="80.0" startX="152.5" startY="-0.5" stroke="#bebbbb" strokeWidth="2.5" />
-                        <Line endX="-99.5" endY="74.5" layoutX="352.0" layoutY="5.0" startX="-99.5" startY="-4.5" stroke="#bebbbb" strokeWidth="2.5" />
+                        <Line endX="-99.5" endY="74.5" layoutX="352.0" layoutY="5.0" startX="-99.5" startY="-4.5" stroke="#bebbbb" strokeWidth="3.5" />
                      </children>
                   </Pane>
-            <ListView fx:id="list_user" prefHeight="469.0" prefWidth="245.0" stylesheets="@../../../values/style.css" />
+            <ListView fx:id="list_user" prefHeight="469.0" prefWidth="245.0" stylesheets="@../../../values/style.css">
+                     <styleClass>
+                        <String fx:value="transparent-background" />
+                        <String fx:value="list-border" />
+                     </styleClass></ListView>
           </children>
         </VBox>
       </children>
     </HBox>
   </left>
   <center>
-    <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+    <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../values/style.css" BorderPane.alignment="CENTER">
       <children>
-        <HBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="492.0">
-          <children>
-            <Pane fx:id="pane_username" nodeOrientation="LEFT_TO_RIGHT" prefHeight="42.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css" HBox.hgrow="ALWAYS" />
-          </children>
-        </HBox>
+        <HBox fx:id="hbox_username" alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css" />
         <ScrollPane fx:id="sp_main" hbarPolicy="NEVER" prefHeight="373.0" prefWidth="514.0" styleClass="transparent-background" stylesheets="@../../../values/style.css" vbarPolicy="NEVER">
           <content>
-            <VBox fx:id="vbox_messages" prefHeight="374.0" prefWidth="490.0" styleClass="white-background" />
+            <VBox fx:id="vbox_messages" prefHeight="374.0" prefWidth="490.0" styleClass="white-background" stylesheets="@../../../values/style.css" />
           </content>
         </ScrollPane>
         <HBox alignment="CENTER" prefHeight="56.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css">
@@ -89,7 +88,7 @@
                   <graphic>
                     <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@icons8-picture-96%20(2).png" />
+                                    <Image url="@icons8-picture-96 (2).png" />
                                  </image>
                     </ImageView>
                   </graphic>
@@ -110,7 +109,7 @@
                   <graphic>
                     <ImageView fitHeight="28.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                       <image>
-                        <Image url="@icons8-send-96%20(1).png" />
+                        <Image url="@icons8-send-96 (1).png" />
                       </image>
                     </ImageView>
                   </graphic>

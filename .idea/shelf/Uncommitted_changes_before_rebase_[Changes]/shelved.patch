@@ -1,0 +1,106 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a471adaa-8633-418e-8383-8ffaf4b3ba3a\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Firebase/CRUDfirebase.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Firebase/ConnectionFirebase.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Model/Message.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Model/Owner.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/Model/User.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/FriendsItem.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/LoginController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/RegisterController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/Firebase/bai1-28a89-firebase-adminsdk-wbymg-f5c817cfad.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/avtar.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-attach-50.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-exit-32.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-search-50.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-send-24.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/login.fxml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/register.fxml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/onepice.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/values/style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Client.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Client.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/messengerclient/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/module-info.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/module-info.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/messengerclient/hello-view.fxml\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"FxmlFile\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2es77AktuWhZQYg8KF8AOxqsZRV\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/project_JAVA/messenger-client&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.30229884&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\project_JAVA\\messenger-client\\src\\main\\resources\" />\r\n      <recent name=\"D:\\project_JAVA\\messenger-client\\src\\main\\resources\\com\\example\\messengerclient\" />\r\n      <recent name=\"D:\\project_JAVA\\messenger-client\\src\\main\\resources\\values\" />\r\n      <recent name=\"D:\\project_JAVA\\messenger-client\\src\" />\r\n    </key>\r\n    <key name=\"ExtractSuperBase.RECENT_KEYS\">\r\n      <recent name=\"Model\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"HelloApplication\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.messengerclient.HelloApplication\" />\r\n      <module name=\"messenger-client\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.example.messengerclient.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.messengerclient.Main\" />\r\n      <module name=\"messenger-client\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.example.messengerclient.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.HelloApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a471adaa-8633-418e-8383-8ffaf4b3ba3a\" name=\"Changes\" comment=\"\" />\r\n      <created>1712681261876</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1712681261876</updated>\r\n      <workItem from=\"1712681263047\" duration=\"3124000\" />\r\n      <workItem from=\"1712685117463\" duration=\"516000\" />\r\n      <workItem from=\"1712685668087\" duration=\"1164000\" />\r\n      <workItem from=\"1712739817671\" duration=\"3589000\" />\r\n      <workItem from=\"1712808696245\" duration=\"137000\" />\r\n      <workItem from=\"1712809344008\" duration=\"2739000\" />\r\n      <workItem from=\"1712977497984\" duration=\"1092000\" />\r\n      <workItem from=\"1712990350400\" duration=\"24000\" />\r\n      <workItem from=\"1712991273775\" duration=\"6094000\" />\r\n      <workItem from=\"1713069875688\" duration=\"246000\" />\r\n      <workItem from=\"1713072007691\" duration=\"519000\" />\r\n      <workItem from=\"1713073574685\" duration=\"13537000\" />\r\n      <workItem from=\"1713119092002\" duration=\"539000\" />\r\n      <workItem from=\"1713119905001\" duration=\"163000\" />\r\n      <workItem from=\"1713790210140\" duration=\"3199000\" />\r\n      <workItem from=\"1713798573408\" duration=\"778000\" />\r\n      <workItem from=\"1714026431151\" duration=\"1652000\" />\r\n      <workItem from=\"1714114087119\" duration=\"274000\" />\r\n      <workItem from=\"1714114571521\" duration=\"6131000\" />\r\n      <workItem from=\"1714145457015\" duration=\"16000\" />\r\n      <workItem from=\"1714151980740\" duration=\"385000\" />\r\n      <workItem from=\"1714154653772\" duration=\"103000\" />\r\n      <workItem from=\"1714187524210\" duration=\"612000\" />\r\n      <workItem from=\"1714189300581\" duration=\"2489000\" />\r\n      <workItem from=\"1714195858769\" duration=\"5493000\" />\r\n      <workItem from=\"1714219878029\" duration=\"1427000\" />\r\n      <workItem from=\"1714293304459\" duration=\"22000\" />\r\n      <workItem from=\"1714295922208\" duration=\"998000\" />\r\n      <workItem from=\"1714309104904\" duration=\"1278000\" />\r\n      <workItem from=\"1714574124724\" duration=\"431000\" />\r\n      <workItem from=\"1714620591878\" duration=\"15117000\" />\r\n      <workItem from=\"1714751804732\" duration=\"4558000\" />\r\n      <workItem from=\"1714788285254\" duration=\"26351000\" />\r\n      <workItem from=\"1714875771564\" duration=\"16986000\" />\r\n      <workItem from=\"1714964588906\" duration=\"137000\" />\r\n      <workItem from=\"1714966583943\" duration=\"199000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,35 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="a471adaa-8633-418e-8383-8ffaf4b3ba3a" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Firebase/CRUDfirebase.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Firebase/ConnectionFirebase.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Message.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Owner.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/FriendsItem.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/LoginController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/RegisterController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/Firebase/bai1-28a89-firebase-adminsdk-wbymg-f5c817cfad.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/avtar.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/friends-item.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-attach-50.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-exit-32.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-search-50.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-send-24.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/login.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/register.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/onepice.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/values/style.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Client.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/hello-view.fxml" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -54,13 +27,16 @@
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+-        <option name="useMavenConfig" value="true" />
++        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+       </MavenGeneralSettings>
+     </option>
+   </component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 3
++}</component>
+   <component name="ProjectId" id="2es77AktuWhZQYg8KF8AOxqsZRV" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -69,13 +45,15 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/project_JAVA/messenger-client&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/TheAnh/JavaFx/app_chat/oop/src/javafx-sdk-17.0.10/lib/javafx.swing.jar&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+@@ -132,6 +110,14 @@
+       </list>
+     </recent_temporary>
+   </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
++        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
++      </set>
++    </attachedChunks>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -176,6 +162,9 @@
+       <workItem from="1714875771564" duration="16986000" />
+       <workItem from="1714964588906" duration="137000" />
+       <workItem from="1714966583943" duration="199000" />
++      <workItem from="1716034201807" duration="237000" />
++      <workItem from="1716034446603" duration="34000" />
++      <workItem from="1716034657668" duration="47000" />
+     </task>
+     <servers />
+   </component>
