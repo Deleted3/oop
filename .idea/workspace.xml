@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a471adaa-8633-418e-8383-8ffaf4b3ba3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons8-facebook-messenger-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messengerclient/StageAndScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/boxChat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-exit-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-image-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-log-out-96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-picture-96 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-picture-96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-search-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-send-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/messengerclient/icons8-send-96.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/values/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/values/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,29 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "TheAnhBinh",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/TheAnh/JavaFx/app_chat/oop/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30229884",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TheAnhBinh&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TheAnh/JavaFx/app_chat/oop/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30229884&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\TheAnh\JavaFx\app_chat\oop\src\main\resources" />
@@ -79,6 +73,9 @@
       <recent name="D:\project_JAVA\messenger-client\src\main\resources" />
       <recent name="D:\project_JAVA\messenger-client\src\main\resources\com\example\messengerclient" />
       <recent name="D:\project_JAVA\messenger-client\src\main\resources\values" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CLONE1\oop\src\main\resources" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Model" />
@@ -190,6 +187,10 @@
       <workItem from="1716020446228" duration="8510000" />
       <workItem from="1716029762456" duration="2324000" />
       <workItem from="1716087036983" duration="2933000" />
+      <workItem from="1716125446481" duration="378000" />
+      <workItem from="1716170657163" duration="301000" />
+      <workItem from="1716172324949" duration="4637000" />
+      <workItem from="1717047787494" duration="322000" />
     </task>
     <servers />
   </component>

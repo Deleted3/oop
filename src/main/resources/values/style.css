@@ -4,6 +4,10 @@
 .light-gray-background{
     -fx-background-color: #A0A0A0;
 }
+.dark-background{
+    -fx-background-color: #000000F0;
+}
+
 .white-background{
     -fx-background-color: #FFFFFF;
 }
@@ -30,6 +34,9 @@
 }
 .gray-light-background{
     -fx-background-color: #EDF1F4;
+}
+.purple-background{
+    -fx-background-color:#5440E5;
 }
 .incoming-bubble{
     -fx-background-color: #FFFFFF;

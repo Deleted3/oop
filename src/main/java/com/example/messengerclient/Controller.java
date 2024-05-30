@@ -194,6 +194,7 @@ public class Controller implements Initializable {
                 @Override
                 public void handle(MouseEvent mouseEvent) {
                     hbox_username.getChildren().clear();
+
                     FXMLLoader loader_tmp = new FXMLLoader(getClass().getResource("friends-item.fxml"));
                     try{
                         HBox friendItem_tmp=loader_tmp.load();

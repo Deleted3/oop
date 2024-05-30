@@ -20,18 +20,18 @@
   <left>
     <HBox prefHeight="500.0" prefWidth="308.0" BorderPane.alignment="CENTER">
       <children>
-        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="57.0" styleClass="blue-facebook2-background" stylesheets="@../../../values/style.css">
+        <VBox alignment="CENTER" opacity="0.91" prefHeight="500.0" prefWidth="57.0" styleClass="purple-background" stylesheets="@../../../values/style.css">
           <children>
             <Pane prefHeight="158.0" prefWidth="64.0" VBox.vgrow="ALWAYS" />
             <Pane prefHeight="185.0" prefWidth="64.0" VBox.vgrow="ALWAYS">
               <children>
                 <StackPane layoutX="-1.0" layoutY="168.0" prefHeight="60.0" prefWidth="60.0" styleClass="gray-background">
                   <children>
-                    <Button fx:id="Button_logout" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="blue-facebook2-background" textFill="#3399f0">
+                    <Button fx:id="Button_logout" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="purple-background" textFill="#3399f0">
                       <graphic>
                         <ImageView fitHeight="46.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
                           <image>
-                            <Image url="@icons8-log-out-96 (1).png" />
+                            <Image url="@icons8-log-out-96.png" />
                           </image>
                         </ImageView>
                       </graphic>
@@ -45,9 +45,9 @@
           <children>
                   <Pane prefHeight="128.0" prefWidth="253.0" styleClass="transparent-background" stylesheets="@../../../values/style.css">
                      <children>
-                  <HBox alignment="TOP_CENTER" layoutX="25.0" layoutY="24.0" prefHeight="31.0" prefWidth="202.0" stylesheets="@../../../values/style.css">
+                  <HBox alignment="TOP_CENTER" layoutX="25.0" layoutY="24.0" opacity="0.91" prefHeight="31.0" prefWidth="202.0" stylesheets="@../../../values/style.css">
                     <styleClass>
-                      <String fx:value="blue-facebook2-background" />
+                      <String fx:value="purple-background" />
                       <String fx:value="radius" />
                     </styleClass>
                            <children>
@@ -58,7 +58,7 @@
                               </Text>
                            </children>
                   </HBox>
-                        <Line endX="-99.5" endY="74.5" layoutX="352.0" layoutY="5.0" startX="-99.5" startY="-4.5" stroke="#bebbbb" strokeWidth="3.5" />
+                        <Line endX="-99.5" endY="74.5" layoutX="352.0" layoutY="5.0" startX="-99.5" startY="-4.5" stroke="#bebbbb" strokeWidth="2.25" />
                      </children>
                   </Pane>
             <ListView fx:id="list_user" prefHeight="469.0" prefWidth="245.0" stylesheets="@../../../values/style.css">
@@ -74,7 +74,30 @@
   <center>
     <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../../../values/style.css" BorderPane.alignment="CENTER">
       <children>
-        <HBox fx:id="hbox_username" alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css" />
+        <HBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="492.0" styleClass="white-background" stylesheets="@../../../values/style.css">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="359.0">
+                     <children>
+                        <HBox fx:id="hbox_username" alignment="CENTER_LEFT" layoutX="-1.0" layoutY="-1.0" prefHeight="84.0" prefWidth="361.0" styleClass="transparent-background" stylesheets="@../../../values/style.css" />
+                     </children></Pane>
+                  <ImageView fitHeight="30.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-call-60.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="80.0" prefWidth="21.0" />
+                  <ImageView fitHeight="30.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-video-call-60.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="80.0" prefWidth="17.0" />
+                  <ImageView fitHeight="30.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-i-64%20(2).png" />
+                     </image>
+                  </ImageView>
+               </children></HBox>
         <ScrollPane fx:id="sp_main" hbarPolicy="NEVER" prefHeight="373.0" prefWidth="514.0" styleClass="transparent-background" stylesheets="@../../../values/style.css" vbarPolicy="NEVER">
           <content>
             <VBox fx:id="vbox_messages" prefHeight="374.0" prefWidth="490.0" styleClass="white-background" stylesheets="@../../../values/style.css" />

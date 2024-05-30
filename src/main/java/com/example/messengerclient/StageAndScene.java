@@ -12,7 +12,7 @@ public class StageAndScene {
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.setTitle("Messenger Client");
-        Image icon= new Image("icons8-facebook-messenger-50.png");
+        Image icon= new Image("icons8-telegram-app-96.png");
         stage.getIcons().add(icon);
         stage.show();
     }
